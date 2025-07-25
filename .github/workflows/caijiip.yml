@@ -30,7 +30,7 @@ jobs:
         
     - name: Commit and push changes
       run: |
-        git config --global user.email "baolw50@gmail.com"
+        git config --global user.email "Juuees6@junes.qzz.io"
         git config --global user.name "jc-lw"
         if [ -n "$(git status --porcelain)" ]; then
           git add ip.txt
